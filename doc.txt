@@ -1,0 +1,12 @@
+https://fontawesome.com/v4.7.0/icon/twitter
+https://getbootstrap.com/docs/4.3/components/navbar/
+https://github.com/cferdinandi/smooth-scroll
+
+1. Helps Developers.
+2. Aliatec.
+3. Kabanet.
+4. Sistema Localización
+5. Gravedad Zero
+6. Sáas Fotografia
+7. Tetris
+8. 

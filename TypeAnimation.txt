@@ -1,0 +1,39 @@
+HTML
+<p class="line anim-typewriter">Full-Stack Developer</p>
+CCS3
+.line {
+	position: relative;
+	top: 50;
+	width: 15em;
+	margin: 0 auto;
+	border-right: 10 px solid rgba(255, 0, 0, 0.75);
+	font-size: 270%;
+	text-aling: center;
+	white-space: nowrap;
+	overflow: hidden; transform: translateY(-50%);
+}
+
+.anim-typewriter{
+	animation: typewriter 4s steps(40) 1s 1 normal both,
+	blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+
+	from {
+		width: 0;
+	}
+	to{
+		width: 25
+		em;
+	}
+}
+
+@keyframes blinkTextCursor {
+	from{
+		border-right-color: rgba(255,255,255,0.75);
+	}
+	to{
+		border-right-color: transparent;
+	}
+}
